@@ -44,8 +44,6 @@ class ThirdViewController: UIViewController {
 
     func dataBind(result:String){
         resultLabel.text = "\(result)님\n환영합니다"
-        
-        
     }
 
     
@@ -54,16 +52,13 @@ class ThirdViewController: UIViewController {
     private func touchupBackButton(){
         let presentingVC = self.presentingViewController
                 guard let VC = presentingVC as? UINavigationController else {return}
-        
+
         self.dismiss(animated: true){
             VC.navigationController?.popToRootViewController(animated: true)
         }
-        
-        
-        
+
+
     }
-    
-    
     
 
 

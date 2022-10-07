@@ -129,7 +129,9 @@ class SecondViewController: UIViewController {
         }
         
         
-        self.present(thirdVC, animated: true, completion: nil)
+        self.present(thirdVC, animated: true, completion: {
+            self.navigationController?.popViewController(animated: true)
+        })
     }
     
    
