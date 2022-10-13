@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Second_Assignment
 //
-//  Created by 누리링 on 2022/10/12.
+//  Created by 누리링 on 2022/10/13.
 //
 
 import UIKit
