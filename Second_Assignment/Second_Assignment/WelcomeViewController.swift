@@ -48,9 +48,14 @@ class WelcomeViewController: UIViewController {
 
     
     private func presentFriendsListViewController(){
+        
+        guard let strongSelf = self else {
+            return
+        }
+        
         let friendslistVC = FriendsListViewController()
         friendslistVC.modalPresentationStyle = .fullScreen
-        
+        strongSelf.navigationController?.dismiss(animated: true)
        }
     
     
