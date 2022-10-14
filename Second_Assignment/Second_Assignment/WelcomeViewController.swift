@@ -47,20 +47,20 @@ class WelcomeViewController: UIViewController {
     }
 
     
+    private func presentFriendsListViewController(){
+        let friendslistVC = FriendsListViewController()
+        friendslistVC.modalPresentationStyle = .fullScreen
+        
+       }
+    
     
     @objc
     private func touchupBackButton(){
-        let presentingVC = self.presentingViewController
-                guard let VC = presentingVC as? UINavigationController else {return}
-
-        self.dismiss(animated: true){
-            VC.navigationController?.popToRootViewController(animated: true)
-        }
-
+        
+        presentFriendsListViewController()
 
     }
     
-
 }
 
 

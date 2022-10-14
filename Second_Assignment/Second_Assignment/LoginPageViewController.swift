@@ -4,7 +4,6 @@
 //
 //  Created by 누리링 on 2022/10/13.
 //
-
 import UIKit
 import SnapKit
 
@@ -232,4 +231,3 @@ extension LoginPageViewController{
     }
     
 }
-
