@@ -49,13 +49,11 @@ class WelcomeViewController: UIViewController {
     
     private func presentFriendsListViewController(){
         
-        guard let strongSelf = self else {
-            return
-        }
+        let FriendVC = FriendsListViewController()
+        FriendVC.modalPresentationStyle = .fullScreen
+        let sceneDeligate = UIApplication.shared.connectedScenes.first?.delegate as!SceneDelegate
+        sceneDeligate.window?.rootViewController = UINavigationController(rootViewController: FriendVC)
         
-        let friendslistVC = FriendsListViewController()
-        friendslistVC.modalPresentationStyle = .fullScreen
-        strongSelf.navigationController?.dismiss(animated: true)
        }
     
     

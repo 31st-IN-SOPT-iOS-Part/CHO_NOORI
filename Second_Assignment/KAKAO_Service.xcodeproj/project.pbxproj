@@ -18,10 +18,11 @@
 		672956E428F8622700A1E638 /* FriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672956E328F8622700A1E638 /* FriendsListViewController.swift */; };
 		672956E628F8624500A1E638 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672956E528F8624500A1E638 /* MyProfileViewController.swift */; };
 		673058F428F99C6E0094F667 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673058F328F99C6E0094F667 /* LoginPageViewController.swift */; };
+		67D02F312912C4A300E0AE02 /* TabbarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D02F302912C4A300E0AE02 /* TabbarTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		672956B828F804BE00A1E638 /* Second_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Second_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		672956B828F804BE00A1E638 /* KAKAO_Service.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KAKAO_Service.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		672956BB28F804BE00A1E638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		672956BD28F804BE00A1E638 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		672956C228F804BE00A1E638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,6 +34,7 @@
 		672956E328F8622700A1E638 /* FriendsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListViewController.swift; sourceTree = "<group>"; };
 		672956E528F8624500A1E638 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
 		673058F328F99C6E0094F667 /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		67D02F302912C4A300E0AE02 /* TabbarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,7 @@
 		672956AF28F804BE00A1E638 = {
 			isa = PBXGroup;
 			children = (
-				672956BA28F804BE00A1E638 /* Second_Assignment */,
+				672956BA28F804BE00A1E638 /* KAKAO_Service */,
 				672956B928F804BE00A1E638 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,35 +60,52 @@
 		672956B928F804BE00A1E638 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				672956B828F804BE00A1E638 /* Second_Assignment.app */,
+				672956B828F804BE00A1E638 /* KAKAO_Service.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		672956BA28F804BE00A1E638 /* Second_Assignment */ = {
+		672956BA28F804BE00A1E638 /* KAKAO_Service */ = {
 			isa = PBXGroup;
 			children = (
+				67D02F2E2912C11B00E0AE02 /* Home */,
+				67D02F2D2912C10000E0AE02 /* Auth */,
 				672956BB28F804BE00A1E638 /* AppDelegate.swift */,
 				672956BD28F804BE00A1E638 /* SceneDelegate.swift */,
 				672956C128F804BE00A1E638 /* Main.storyboard */,
 				672956C428F804BF00A1E638 /* Assets.xcassets */,
 				672956C628F804BF00A1E638 /* LaunchScreen.storyboard */,
 				672956C928F804BF00A1E638 /* Info.plist */,
-				672956DA28F8109A00A1E638 /* NewLoginViewController.swift */,
-				672956DC28F810A800A1E638 /* WelcomeViewController.swift */,
-				672956E328F8622700A1E638 /* FriendsListViewController.swift */,
-				672956E528F8624500A1E638 /* MyProfileViewController.swift */,
-				673058F328F99C6E0094F667 /* LoginPageViewController.swift */,
+				67D02F302912C4A300E0AE02 /* TabbarTableViewController.swift */,
 			);
-			path = Second_Assignment;
+			path = KAKAO_Service;
+			sourceTree = "<group>";
+		};
+		67D02F2D2912C10000E0AE02 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				673058F328F99C6E0094F667 /* LoginPageViewController.swift */,
+				672956DC28F810A800A1E638 /* WelcomeViewController.swift */,
+				672956DA28F8109A00A1E638 /* NewLoginViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		67D02F2E2912C11B00E0AE02 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				672956E528F8624500A1E638 /* MyProfileViewController.swift */,
+				672956E328F8622700A1E638 /* FriendsListViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		672956B728F804BE00A1E638 /* Second_Assignment */ = {
+		672956B728F804BE00A1E638 /* KAKAO_Service */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 672956CC28F804BF00A1E638 /* Build configuration list for PBXNativeTarget "Second_Assignment" */;
+			buildConfigurationList = 672956CC28F804BF00A1E638 /* Build configuration list for PBXNativeTarget "KAKAO_Service" */;
 			buildPhases = (
 				672956B428F804BE00A1E638 /* Sources */,
 				672956B528F804BE00A1E638 /* Frameworks */,
@@ -96,12 +115,12 @@
 			);
 			dependencies = (
 			);
-			name = Second_Assignment;
+			name = KAKAO_Service;
 			packageProductDependencies = (
 				672956DF28F8174100A1E638 /* SnapKit */,
 			);
 			productName = Second_Assignment;
-			productReference = 672956B828F804BE00A1E638 /* Second_Assignment.app */;
+			productReference = 672956B828F804BE00A1E638 /* KAKAO_Service.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 672956B328F804BE00A1E638 /* Build configuration list for PBXProject "Second_Assignment" */;
+			buildConfigurationList = 672956B328F804BE00A1E638 /* Build configuration list for PBXProject "KAKAO_Service" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				672956B728F804BE00A1E638 /* Second_Assignment */,
+				672956B728F804BE00A1E638 /* KAKAO_Service */,
 			);
 		};
 /* End PBXProject section */
@@ -163,6 +182,7 @@
 				672956DB28F8109A00A1E638 /* NewLoginViewController.swift in Sources */,
 				672956BC28F804BE00A1E638 /* AppDelegate.swift in Sources */,
 				672956E428F8622700A1E638 /* FriendsListViewController.swift in Sources */,
+				67D02F312912C4A300E0AE02 /* TabbarTableViewController.swift in Sources */,
 				673058F428F99C6E0094F667 /* LoginPageViewController.swift in Sources */,
 				672956BE28F804BE00A1E638 /* SceneDelegate.swift in Sources */,
 			);
@@ -361,7 +381,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		672956B328F804BE00A1E638 /* Build configuration list for PBXProject "Second_Assignment" */ = {
+		672956B328F804BE00A1E638 /* Build configuration list for PBXProject "KAKAO_Service" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				672956CA28F804BF00A1E638 /* Debug */,
@@ -370,7 +390,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		672956CC28F804BF00A1E638 /* Build configuration list for PBXNativeTarget "Second_Assignment" */ = {
+		672956CC28F804BF00A1E638 /* Build configuration list for PBXNativeTarget "KAKAO_Service" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				672956CD28F804BF00A1E638 /* Debug */,

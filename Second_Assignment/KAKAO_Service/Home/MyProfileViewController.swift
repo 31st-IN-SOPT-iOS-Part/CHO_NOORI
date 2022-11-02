@@ -8,12 +8,14 @@
 import UIKit
 import SnapKit
 
+
 class MyProfileViewController: UIViewController {
-    
+
     private let blankView : UIView = {
        let view = UIView()
         return view
     }()
+    
     
     lazy var returnButton : UIButton = {
         let button = UIButton()
@@ -24,9 +26,9 @@ class MyProfileViewController: UIViewController {
     
     
     private let myProfileImage : UIImageView = {
-        let imageView = UIImageView()
-        imageView.image = UIImage(named: "person")
-        return imageView
+        let imgView = UIImageView()
+        imgView.image = UIImage(named: "profileIMG")
+        return imgView
     }()
     
     
@@ -35,7 +37,7 @@ class MyProfileViewController: UIViewController {
         label.text = "누리다"
         label.textColor = .white
         label.textAlignment = .center
-        label.font = .systemFont(ofSize: 17, weight: .regular)
+        label.font = .systemFont(ofSize: 17, weight: .bold)
         return label
     }()
     
@@ -47,18 +49,20 @@ class MyProfileViewController: UIViewController {
     }()
     
     
+    private let viewfunc = UIView()
+        
+    
     private let myChatButton : UIButton = {
         let button = UIButton()
-        button.setImage(UIImage(named: "massege.fil"), for: .normal)
+        button.setImage(UIImage(named: "message.fill"), for: .normal)
         return button
     }()
     
-    
-    
+
     private let myChatLabel : UILabel = {
         let label = UILabel()
         label.text = "나와의 채팅"
-        label.font = .systemFont(ofSize: 11, weight: .regular)
+        label.font = .systemFont(ofSize: 12, weight: .bold)
         label.textColor = .white
         label.textAlignment = .center
         return label
@@ -75,7 +79,7 @@ class MyProfileViewController: UIViewController {
     private let editPageLabel : UILabel = {
         let label = UILabel()
         label.text = "프로필 편집"
-        label.font = .systemFont(ofSize: 11, weight: .regular)
+        label.font = .systemFont(ofSize: 12, weight: .bold)
         label.textAlignment = .center
         label.textColor = .white
         return label
@@ -92,7 +96,7 @@ class MyProfileViewController: UIViewController {
     private let kakaoStoryLabel : UILabel = {
         let label = UILabel()
         label.text = "카카오스토리"
-        label.font = .systemFont(ofSize: 11, weight: .regular)
+        label.font = .systemFont(ofSize: 12, weight: .bold)
         label.textAlignment = .center
         label.textColor = .white
         return label

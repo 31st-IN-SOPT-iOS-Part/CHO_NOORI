@@ -10,7 +10,6 @@ import SnapKit
 
 class FriendsListViewController: UIViewController {
     
-    
 
     private let friendScroll : UIScrollView = {
         let scrollView = UIScrollView()
@@ -23,6 +22,7 @@ class FriendsListViewController: UIViewController {
         let view = UIView()
         return view
     }()
+    
         
     private let friendLabel : UILabel = {
         let label = UILabel()
@@ -32,19 +32,17 @@ class FriendsListViewController: UIViewController {
         return label
     }()
     
-    
-    private let settingImage : UIImageView = {
-
-        let imageView = UIImageView()
-        imageView.image = UIImage(named: "infinity")
-        return imageView
+    private let settingButton : UIImageView = {
+        let imgView = UIImageView()
+        imgView.image = UIImage(named: "settings")
+        return imgView
     }()
     
     
     lazy var profileButton : UIButton = {
         let button = UIButton()
         button.addTarget(self, action: #selector(touchUpProfileButton), for: .touchUpInside)
-        button.setImage(UIImage(named: "person.fill"), for: .normal)
+        button.setImage(UIImage(named: "profileIMG"), for: .normal)
         return button
     }()
     
@@ -61,6 +59,8 @@ class FriendsListViewController: UIViewController {
     private func showMyProfileVC(){
         let ProfileVC = MyProfileViewController()
         ProfileVC.modalPresentationStyle = .formSheet
+        self.present(ProfileVC,animated: true, completion: nil)
+
     }
     
         
@@ -79,7 +79,7 @@ extension FriendsListViewController {
         }
         
         
-        [friendLabel,settingImage].forEach{topView.addSubview($0)
+        [friendLabel,settingButton].forEach{topView.addSubview($0)
         }
         
         friendScroll.snp.makeConstraints{ make in
@@ -98,7 +98,7 @@ extension FriendsListViewController {
             make.leading.equalToSuperview().offset(14)
         }
         
-        settingImage.snp.makeConstraints{ make in
+        settingButton.snp.makeConstraints{ make in
             make.top.equalToSuperview().offset(16)
             make.leading.equalTo(self.friendLabel.snp.trailing).offset(4)
             make.width.equalTo(21)
