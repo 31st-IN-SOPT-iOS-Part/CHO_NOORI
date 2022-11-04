@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6787D350291456DC00B53503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D34F291456DC00B53503 /* AppDelegate.swift */; };
+		6787D352291456DC00B53503 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D351291456DC00B53503 /* SceneDelegate.swift */; };
+		6787D354291456DC00B53503 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D353291456DC00B53503 /* ViewController.swift */; };
+		6787D357291456DC00B53503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6787D355291456DC00B53503 /* Main.storyboard */; };
+		6787D359291456DD00B53503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6787D358291456DD00B53503 /* Assets.xcassets */; };
+		6787D35C291456DD00B53503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6787D35A291456DD00B53503 /* LaunchScreen.storyboard */; };
+		6787D36C2914580D00B53503 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D3692914580D00B53503 /* LoginPageViewController.swift */; };
+		6787D36D2914580D00B53503 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D36A2914580D00B53503 /* WelcomeViewController.swift */; };
+		6787D36E2914580D00B53503 /* NewLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D36B2914580D00B53503 /* NewLoginViewController.swift */; };
+		6787D3702914582D00B53503 /* KakaoTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D36F2914582D00B53503 /* KakaoTabbarViewController.swift */; };
+		6787D3742914586B00B53503 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D3712914586B00B53503 /* FriendModel.swift */; };
+		6787D3752914586B00B53503 /* GalleryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D3722914586B00B53503 /* GalleryModel.swift */; };
+		6787D3762914586B00B53503 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D3732914586B00B53503 /* ChatModel.swift */; };
+		6787D37A2914587B00B53503 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D3772914587B00B53503 /* ChatTableViewCell.swift */; };
+		6787D37B2914587B00B53503 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D3782914587B00B53503 /* PhotoCollectionViewCell.swift */; };
+		6787D37C2914587B00B53503 /* FriendsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D3792914587B00B53503 /* FriendsListTableViewCell.swift */; };
+		6787D380291458AF00B53503 /* SharpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D37F291458AF00B53503 /* SharpViewController.swift */; };
+		6787D382291458B400B53503 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D381291458B400B53503 /* ShopViewController.swift */; };
+		6787D385291458C600B53503 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D384291458C600B53503 /* MoreViewController.swift */; };
+		6787D389291458E600B53503 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D387291458E600B53503 /* ChatViewController.swift */; };
+		6787D38A291458E600B53503 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D388291458E600B53503 /* PhotoViewController.swift */; };
+		6787D38E2914590B00B53503 /* FriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D38C2914590B00B53503 /* FriendsListViewController.swift */; };
+		6787D38F2914590B00B53503 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787D38D2914590B00B53503 /* MyProfileViewController.swift */; };
+		6787D3922914594000B53503 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6787D3912914594000B53503 /* SnapKit */; };
+		6787D3952914594E00B53503 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 6787D3942914594E00B53503 /* Then */; };
+		6787D3982914596300B53503 /* SwiftyColor in Frameworks */ = {isa = PBXBuildFile; productRef = 6787D3972914596300B53503 /* SwiftyColor */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6787D34C291456DC00B53503 /* SOPT_KakaoTalk_Service.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOPT_KakaoTalk_Service.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6787D34F291456DC00B53503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6787D351291456DC00B53503 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6787D353291456DC00B53503 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6787D356291456DC00B53503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6787D358291456DD00B53503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6787D35B291456DD00B53503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6787D35D291456DD00B53503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6787D3692914580D00B53503 /* LoginPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginPageViewController.swift; path = ../../../../Second_Assignment/Second_Assignment/Auth/LoginPageViewController.swift; sourceTree = "<group>"; };
+		6787D36A2914580D00B53503 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = ../../../../Second_Assignment/Second_Assignment/Auth/WelcomeViewController.swift; sourceTree = "<group>"; };
+		6787D36B2914580D00B53503 /* NewLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewLoginViewController.swift; path = ../../../../Second_Assignment/Second_Assignment/Auth/NewLoginViewController.swift; sourceTree = "<group>"; };
+		6787D36F2914582D00B53503 /* KakaoTabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KakaoTabbarViewController.swift; path = ../../../Second_Assignment/Second_Assignment/Tabbar/KakaoTabbarViewController.swift; sourceTree = "<group>"; };
+		6787D3712914586B00B53503 /* FriendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendModel.swift; path = ../../../Second_Assignment/Second_Assignment/Model/FriendModel.swift; sourceTree = "<group>"; };
+		6787D3722914586B00B53503 /* GalleryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GalleryModel.swift; path = ../../../Second_Assignment/Second_Assignment/Model/GalleryModel.swift; sourceTree = "<group>"; };
+		6787D3732914586B00B53503 /* ChatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatModel.swift; path = ../../../Second_Assignment/Second_Assignment/Model/ChatModel.swift; sourceTree = "<group>"; };
+		6787D3772914587B00B53503 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatTableViewCell.swift; path = ../../../Second_Assignment/Second_Assignment/HomeCell/ChatTableViewCell.swift; sourceTree = "<group>"; };
+		6787D3782914587B00B53503 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoCollectionViewCell.swift; path = ../../../Second_Assignment/Second_Assignment/HomeCell/PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		6787D3792914587B00B53503 /* FriendsListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendsListTableViewCell.swift; path = ../../../Second_Assignment/Second_Assignment/HomeCell/FriendsListTableViewCell.swift; sourceTree = "<group>"; };
+		6787D37F291458AF00B53503 /* SharpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SharpViewController.swift; path = ../../../../Second_Assignment/Second_Assignment/Home/SharpViewController.swift; sourceTree = "<group>"; };
+		6787D381291458B400B53503 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShopViewController.swift; path = ../../../../Second_Assignment/Second_Assignment/Home/ShopViewController.swift; sourceTree = "<group>"; };
+		6787D384291458C600B53503 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoreViewController.swift; path = ../../../../Second_Assignment/Second_Assignment/Home/MoreViewController.swift; sourceTree = "<group>"; };
+		6787D387291458E600B53503 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatViewController.swift; path = ../../../../Second_Assignment/Second_Assignment/Home/ChatViewController.swift; sourceTree = "<group>"; };
+		6787D388291458E600B53503 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoViewController.swift; path = ../../../../Second_Assignment/Second_Assignment/Home/PhotoViewController.swift; sourceTree = "<group>"; };
+		6787D38C2914590B00B53503 /* FriendsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendsListViewController.swift; path = ../../../../Second_Assignment/Second_Assignment/Home/FriendsListViewController.swift; sourceTree = "<group>"; };
+		6787D38D2914590B00B53503 /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyProfileViewController.swift; path = ../../../../Second_Assignment/Second_Assignment/Home/MyProfileViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6787D349291456DC00B53503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6787D3922914594000B53503 /* SnapKit in Frameworks */,
+				6787D3982914596300B53503 /* SwiftyColor in Frameworks */,
+				6787D3952914594E00B53503 /* Then in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6787D343291456DC00B53503 = {
+			isa = PBXGroup;
+			children = (
+				6787D34E291456DC00B53503 /* SOPT_KakaoTalk_Service */,
+				6787D34D291456DC00B53503 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6787D34D291456DC00B53503 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6787D34C291456DC00B53503 /* SOPT_KakaoTalk_Service.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6787D34E291456DC00B53503 /* SOPT_KakaoTalk_Service */ = {
+			isa = PBXGroup;
+			children = (
+				6787D367291457DC00B53503 /* ViewController */,
+				6787D366291457C400B53503 /* Tabbar */,
+				6787D365291457AE00B53503 /* Model */,
+				6787D3642914578100B53503 /* HomeCell */,
+				6787D3632914574F00B53503 /* Resource */,
+				6787D353291456DC00B53503 /* ViewController.swift */,
+				6787D355291456DC00B53503 /* Main.storyboard */,
+				6787D35A291456DD00B53503 /* LaunchScreen.storyboard */,
+				6787D35D291456DD00B53503 /* Info.plist */,
+			);
+			path = SOPT_KakaoTalk_Service;
+			sourceTree = "<group>";
+		};
+		6787D3632914574F00B53503 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6787D34F291456DC00B53503 /* AppDelegate.swift */,
+				6787D351291456DC00B53503 /* SceneDelegate.swift */,
+				6787D358291456DD00B53503 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		6787D3642914578100B53503 /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				6787D3772914587B00B53503 /* ChatTableViewCell.swift */,
+				6787D3792914587B00B53503 /* FriendsListTableViewCell.swift */,
+				6787D3782914587B00B53503 /* PhotoCollectionViewCell.swift */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		6787D365291457AE00B53503 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6787D3732914586B00B53503 /* ChatModel.swift */,
+				6787D3712914586B00B53503 /* FriendModel.swift */,
+				6787D3722914586B00B53503 /* GalleryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6787D366291457C400B53503 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				6787D36F2914582D00B53503 /* KakaoTabbarViewController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		6787D367291457DC00B53503 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6787D38B291458F800B53503 /* HomeProfile */,
+				6787D386291458D500B53503 /* Chat */,
+				6787D383291458BB00B53503 /* More */,
+				6787D37E2914589700B53503 /* Sharp# */,
+				6787D37D2914588800B53503 /* Shop */,
+				6787D368291457EF00B53503 /* Auth */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6787D368291457EF00B53503 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				6787D3692914580D00B53503 /* LoginPageViewController.swift */,
+				6787D36B2914580D00B53503 /* NewLoginViewController.swift */,
+				6787D36A2914580D00B53503 /* WelcomeViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		6787D37D2914588800B53503 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				6787D381291458B400B53503 /* ShopViewController.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		6787D37E2914589700B53503 /* Sharp# */ = {
+			isa = PBXGroup;
+			children = (
+				6787D37F291458AF00B53503 /* SharpViewController.swift */,
+			);
+			path = "Sharp#";
+			sourceTree = "<group>";
+		};
+		6787D383291458BB00B53503 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				6787D384291458C600B53503 /* MoreViewController.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		6787D386291458D500B53503 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				6787D387291458E600B53503 /* ChatViewController.swift */,
+				6787D388291458E600B53503 /* PhotoViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		6787D38B291458F800B53503 /* HomeProfile */ = {
+			isa = PBXGroup;
+			children = (
+				6787D38C2914590B00B53503 /* FriendsListViewController.swift */,
+				6787D38D2914590B00B53503 /* MyProfileViewController.swift */,
+			);
+			path = HomeProfile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6787D34B291456DC00B53503 /* SOPT_KakaoTalk_Service */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6787D360291456DD00B53503 /* Build configuration list for PBXNativeTarget "SOPT_KakaoTalk_Service" */;
+			buildPhases = (
+				6787D348291456DC00B53503 /* Sources */,
+				6787D349291456DC00B53503 /* Frameworks */,
+				6787D34A291456DC00B53503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOPT_KakaoTalk_Service;
+			packageProductDependencies = (
+				6787D3912914594000B53503 /* SnapKit */,
+				6787D3942914594E00B53503 /* Then */,
+				6787D3972914596300B53503 /* SwiftyColor */,
+			);
+			productName = SOPT_KakaoTalk_Service;
+			productReference = 6787D34C291456DC00B53503 /* SOPT_KakaoTalk_Service.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6787D344291456DC00B53503 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					6787D34B291456DC00B53503 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 6787D347291456DC00B53503 /* Build configuration list for PBXProject "SOPT_KakaoTalk_Service" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6787D343291456DC00B53503;
+			packageReferences = (
+				6787D3902914594000B53503 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				6787D3932914594E00B53503 /* XCRemoteSwiftPackageReference "Then" */,
+				6787D3962914596300B53503 /* XCRemoteSwiftPackageReference "SwiftyColor" */,
+			);
+			productRefGroup = 6787D34D291456DC00B53503 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6787D34B291456DC00B53503 /* SOPT_KakaoTalk_Service */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6787D34A291456DC00B53503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6787D35C291456DD00B53503 /* LaunchScreen.storyboard in Resources */,
+				6787D359291456DD00B53503 /* Assets.xcassets in Resources */,
+				6787D357291456DC00B53503 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6787D348291456DC00B53503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6787D354291456DC00B53503 /* ViewController.swift in Sources */,
+				6787D3752914586B00B53503 /* GalleryModel.swift in Sources */,
+				6787D382291458B400B53503 /* ShopViewController.swift in Sources */,
+				6787D36D2914580D00B53503 /* WelcomeViewController.swift in Sources */,
+				6787D38E2914590B00B53503 /* FriendsListViewController.swift in Sources */,
+				6787D36C2914580D00B53503 /* LoginPageViewController.swift in Sources */,
+				6787D385291458C600B53503 /* MoreViewController.swift in Sources */,
+				6787D350291456DC00B53503 /* AppDelegate.swift in Sources */,
+				6787D380291458AF00B53503 /* SharpViewController.swift in Sources */,
+				6787D37B2914587B00B53503 /* PhotoCollectionViewCell.swift in Sources */,
+				6787D38F2914590B00B53503 /* MyProfileViewController.swift in Sources */,
+				6787D37A2914587B00B53503 /* ChatTableViewCell.swift in Sources */,
+				6787D3762914586B00B53503 /* ChatModel.swift in Sources */,
+				6787D389291458E600B53503 /* ChatViewController.swift in Sources */,
+				6787D3702914582D00B53503 /* KakaoTabbarViewController.swift in Sources */,
+				6787D38A291458E600B53503 /* PhotoViewController.swift in Sources */,
+				6787D37C2914587B00B53503 /* FriendsListTableViewCell.swift in Sources */,
+				6787D3742914586B00B53503 /* FriendModel.swift in Sources */,
+				6787D352291456DC00B53503 /* SceneDelegate.swift in Sources */,
+				6787D36E2914580D00B53503 /* NewLoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6787D355291456DC00B53503 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6787D356291456DC00B53503 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6787D35A291456DD00B53503 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6787D35B291456DD00B53503 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6787D35E291456DD00B53503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6787D35F291456DD00B53503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6787D361291456DD00B53503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SOPT_KakaoTalk_Service/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CHO.SOPT-KakaoTalk-Service";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6787D362291456DD00B53503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SOPT_KakaoTalk_Service/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CHO.SOPT-KakaoTalk-Service";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6787D347291456DC00B53503 /* Build configuration list for PBXProject "SOPT_KakaoTalk_Service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6787D35E291456DD00B53503 /* Debug */,
+				6787D35F291456DD00B53503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6787D360291456DD00B53503 /* Build configuration list for PBXNativeTarget "SOPT_KakaoTalk_Service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6787D361291456DD00B53503 /* Debug */,
+				6787D362291456DD00B53503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6787D3902914594000B53503 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		6787D3932914594E00B53503 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		6787D3962914596300B53503 /* XCRemoteSwiftPackageReference "SwiftyColor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/SwiftyColor.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6787D3912914594000B53503 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6787D3902914594000B53503 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		6787D3942914594E00B53503 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6787D3932914594E00B53503 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		6787D3972914596300B53503 /* SwiftyColor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6787D3962914596300B53503 /* XCRemoteSwiftPackageReference "SwiftyColor" */;
+			productName = SwiftyColor;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6787D344291456DC00B53503 /* Project object */;
+}
